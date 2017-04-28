@@ -9,6 +9,11 @@ class CfgPatches {
         weapons[] = {};
     };
 };
+class cfgVehicleClasses {
+	class SOS_vehicleClass {
+		displayName = "SOS Rifleman";
+	};
+};
 
 #include "CfgVehicles.hpp"
 #include "CfgWeapons.hpp"

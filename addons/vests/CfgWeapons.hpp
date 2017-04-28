@@ -22,8 +22,8 @@ class CfgWeapons {
 	class H_MilCap_mcamo;
 	class B_CTRG_Soldier_F;
 	
-	#include "FirstVests.hpp"
-	#include "SecondVests.hpp"
-	#include "HeadGear.hpp"
-	#include "Uniforms.hpp"
+	#include "firstVests.hpp"
+	#include "secondVests.hpp"
+	#include "headGear.hpp"
+	#include "uniforms.hpp"
 };

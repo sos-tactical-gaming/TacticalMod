@@ -1,11 +1,11 @@
-name = "S.O.S Tactical Mod";
+name = "S.O.S Tactical Mod - Version 1.0.7";
 picture = "sos_logo.paa";
 actionName = "Website";
 action = "http://sos-tactical-gaming.shivtr.com/";
 description = "";
 logo = "sos_logo.paa";
 logoOver = "sos_logo.paa";
-tooltip = "S.O.S Tactical Mod - Version 1.0.6";
+tooltip = "S.O.S Tactical Mod - Version 1.0.7";
 overview = "";
 author = "[S.O.S Major] Legman";
 overviewPicture = "sos_logo.paa";

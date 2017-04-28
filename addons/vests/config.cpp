@@ -10,9 +10,9 @@ class CfgPatches {
     };
 };
 class cfgVehicleClasses {
-	class SOS_vehicleClass {
-		displayName = "SOS Rifleman";
-	};
+    class SOS_vehicleClass {
+        displayName = "SOS Rifleman";
+    };
 };
 
 #include "CfgVehicles.hpp"

@@ -1,13 +1,13 @@
 #include "script_component.hpp"
 
 class CfgPatches {
-	class ADDON {
-		name = "S.O.S Tactical Mod";
-		author = "[S.O.S Major] Legman";
-		url = "http://sos-tactical-gaming.shivtr.com/";		
-		requiredVersion = 0.1;
-		requiredAddons[] = {
-			// vanilla
+    class ADDON {
+        name = "S.O.S Tactical Mod";
+        author = "[S.O.S Major] Legman";
+        url = "http://sos-tactical-gaming.shivtr.com/";        
+        requiredVersion = 0.1;
+        requiredAddons[] = {
+            // vanilla
             "a3_3den",
             "a3_3den_language",
             "a3_air_f",
@@ -869,8 +869,8 @@ class CfgPatches {
             "cba_ui",
             "cba_xeh",
             "cba_jr"
-		};
-		units[] = {};
-		weapons[] = {};		
-	};
+        };
+        units[] = {};
+        weapons[] = {};        
+    };
 };

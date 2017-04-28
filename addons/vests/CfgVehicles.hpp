@@ -1,2 +1,2 @@
-class CfgVehicles {	
+class CfgVehicles {    
 };

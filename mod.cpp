@@ -1,4 +1,4 @@
-name = "S.O.S Tactical Mod - Version 1.0.7";
+name = "S.O.S Tactical Mod";
 picture = "sos_logo.paa";
 actionName = "Website";
 action = "http://sos-tactical-gaming.shivtr.com/";

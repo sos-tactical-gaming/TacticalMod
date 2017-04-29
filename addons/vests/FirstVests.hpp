@@ -6,7 +6,7 @@ class cat_Vest_pleb: V_PlateCarrier1_rgr {
     picture = "\A3\characters_f\Data\UI\icon_V_plate_carrier_1_CA.paa";
     model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
     hiddenSelections[] = {"camo"};
-    hiddenSelectionsTextures[] = {"SOS_Vests\Data\Pleb.paa"}; 
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\Pleb.paa"}; 
 class ItemInfo : ItemInfo {
         uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
         containerClass = "Supply140";
@@ -43,7 +43,7 @@ class cat_Vest_76561197974805504: V_PlateCarrier1_rgr {
     picture = "\A3\characters_f\Data\UI\icon_V_plate_carrier_1_CA.paa";
     model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
     hiddenSelections[] = {"camo"};
-    hiddenSelectionsTextures[] = {"SOS_Vests\Data\first_vests\Tomcat.paa"};  
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\first_vests\Tomcat.paa"};  
     class ItemInfo : ItemInfo {
         uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
         containerClass = "Supply140";
@@ -80,7 +80,7 @@ class cat_Vest_76561198049798573: V_PlateCarrier1_rgr {
     picture = "\A3\characters_f\Data\UI\icon_V_plate_carrier_1_CA.paa";
     model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
     hiddenSelections[] = {"camo"};
-    hiddenSelectionsTextures[] = {"SOS_Vests\Data\first_vests\Zarta.paa"};
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\first_vests\Zarta.paa"};
     class ItemInfo : ItemInfo {
     uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
     containerClass = "Supply120";
@@ -98,7 +98,7 @@ class cat_Vest_76561197992016729: V_PlateCarrier1_rgr {
     picture = "\A3\characters_f\Data\UI\icon_V_plate_carrier_1_CA.paa";
     model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
     hiddenSelections[] = {"camo"};
-    hiddenSelectionsTextures[] = {"SOS_Vests\Data\first_vests\TJB.paa"};  
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\first_vests\TJB.paa"};  
     class ItemInfo : ItemInfo {
             uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
             containerClass = "Supply140";
@@ -135,7 +135,7 @@ class cat_Vest_76561197971445655: V_PlateCarrier1_rgr {
     picture = "\A3\characters_f\Data\UI\icon_V_plate_carrier_1_CA.paa";
     model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
     hiddenSelections[] = {"camo"};
-    hiddenSelectionsTextures[] = {"SOS_Vests\Data\first_vests\Tadpole.paa"};
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\first_vests\Tadpole.paa"};
     class ItemInfo : ItemInfo {
         uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
         containerClass = "Supply140";
@@ -173,7 +173,7 @@ class cat_Vest_76561197994858549: V_PlateCarrier1_rgr {
     picture = "\A3\characters_f\Data\UI\icon_V_plate_carrier_1_CA.paa";
     model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
     hiddenSelections[] = {"camo"};
-    hiddenSelectionsTextures[] = {"SOS_Vests\Data\first_vests\Stretch.paa"};
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\first_vests\Stretch.paa"};
     class ItemInfo : ItemInfo {
         uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
         containerClass = "Supply140";
@@ -210,7 +210,7 @@ class cat_Vest_76561198104947173: V_PlateCarrier1_rgr {
     picture = "\A3\characters_f\Data\UI\icon_V_plate_carrier_1_CA.paa";
     model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
     hiddenSelections[] = {"camo"};
-    hiddenSelectionsTextures[] = {"SOS_Vests\Data\first_vests\Rambo.paa"};
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\first_vests\Rambo.paa"};
     class ItemInfo : ItemInfo {
         uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
         containerClass = "Supply140";
@@ -247,7 +247,7 @@ class cat_Vest_76561198044389187: V_PlateCarrier1_rgr {
     picture = "\A3\characters_f\Data\UI\icon_V_plate_carrier_1_CA.paa";
     model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
     hiddenSelections[] = {"camo"};
-    hiddenSelectionsTextures[] = {"SOS_Vests\Data\first_vests\Plikins.paa"};
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\first_vests\Plikins.paa"};
     class ItemInfo : ItemInfo {
         uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
         containerClass = "Supply140";
@@ -284,7 +284,7 @@ class cat_Vest_76561198086715001: V_PlateCarrier1_rgr {
     picture = "\A3\characters_f\Data\UI\icon_V_plate_carrier_1_CA.paa";
     model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
     hiddenSelections[] = {"camo"};
-    hiddenSelectionsTextures[] = {"SOS_Vests\Data\first_vests\Oshunai.paa"};  
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\first_vests\Oshunai.paa"};  
     class ItemInfo : ItemInfo {
         uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
         containerClass = "Supply140";
@@ -321,7 +321,7 @@ class cat_Vest_76561198000195702: V_PlateCarrier1_rgr {
     picture = "\A3\characters_f\Data\UI\icon_V_plate_carrier_1_CA.paa";
     model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
     hiddenSelections[] = {"camo"};
-    hiddenSelectionsTextures[] = {"SOS_Vests\Data\first_vests\LSD.paa"};  
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\first_vests\LSD.paa"};  
     class ItemInfo : ItemInfo {
         uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
         containerClass = "Supply140";
@@ -358,7 +358,7 @@ class cat_Vest_76561197968756643: V_PlateCarrier1_rgr {
     picture = "\A3\characters_f\Data\UI\icon_V_plate_carrier_1_CA.paa";
     model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
     hiddenSelections[] = {"camo"};
-    hiddenSelectionsTextures[] = {"SOS_Vests\Data\first_vests\Legman.paa"};  
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\first_vests\Legman.paa"};  
     class ItemInfo : ItemInfo {
         uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
         containerClass = "Supply140";
@@ -395,7 +395,7 @@ class cat_Vest_76561198006427961: V_PlateCarrier1_rgr {
     picture = "\A3\characters_f\Data\UI\icon_V_plate_carrier_1_CA.paa";
     model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
     hiddenSelections[] = {"camo"};
-    hiddenSelectionsTextures[] = {"SOS_Vests\Data\first_vests\LastWordz.paa"};
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\first_vests\LastWordz.paa"};
     class ItemInfo : ItemInfo {
         uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
         containerClass = "Supply140";
@@ -432,7 +432,7 @@ class cat_Vest_76561198047981602: V_PlateCarrier1_rgr {
     picture = "\A3\characters_f\Data\UI\icon_V_plate_carrier_1_CA.paa";
     model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
     hiddenSelections[] = {"camo"};
-    hiddenSelectionsTextures[] = {"SOS_Vests\Data\first_vests\SirWalrus.paa"};
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\first_vests\SirWalrus.paa"};
     class ItemInfo : ItemInfo {
         uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
         containerClass = "Supply140";
@@ -469,7 +469,7 @@ class cat_Vest_76561198007954214: V_PlateCarrier1_rgr {
     picture = "\A3\characters_f\Data\UI\icon_V_plate_carrier_1_CA.paa";
     model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
     hiddenSelections[] = {"camo"};
-    hiddenSelectionsTextures[] = {"SOS_Vests\Data\first_vests\Henri.paa"};  
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\first_vests\Henri.paa"};  
     class ItemInfo : ItemInfo {
         uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
         containerClass = "Supply140";
@@ -506,7 +506,7 @@ class cat_Vest_76561198099194444: V_PlateCarrier1_rgr {
     picture = "\A3\characters_f\Data\UI\icon_V_plate_carrier_1_CA.paa";
     model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
     hiddenSelections[] = {"camo"};
-    hiddenSelectionsTextures[] = {"SOS_Vests\Data\first_vests\Gosh.paa"};
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\first_vests\Gosh.paa"};
     class ItemInfo : ItemInfo {
         uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
         containerClass = "Supply140";
@@ -543,7 +543,7 @@ class cat_Vest_76561198088953166: V_PlateCarrier1_rgr {
     picture = "\A3\characters_f\Data\UI\icon_V_plate_carrier_1_CA.paa";
     model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
     hiddenSelections[] = {"camo"};
-    hiddenSelectionsTextures[] = {"SOS_Vests\Data\first_vests\Flarmblarg.paa"}; 
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\first_vests\Flarmblarg.paa"}; 
     class ItemInfo : ItemInfo {
         uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
         containerClass = "Supply140";
@@ -580,7 +580,7 @@ class cat_Vest_76561198001423165: V_PlateCarrier1_rgr {
     picture = "\A3\characters_f\Data\UI\icon_V_plate_carrier_1_CA.paa";
     model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
     hiddenSelections[] = {"camo"};
-    hiddenSelectionsTextures[] = {"SOS_Vests\Data\first_vests\EnquiringStone.paa"};
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\first_vests\EnquiringStone.paa"};
     class ItemInfo : ItemInfo {
         uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
         containerClass = "Supply140";
@@ -617,7 +617,7 @@ class cat_Vest_76561197994235867: V_PlateCarrier1_rgr {
     picture = "\A3\characters_f\Data\UI\icon_V_plate_carrier_1_CA.paa";
     model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
     hiddenSelections[] = {"camo"};
-    hiddenSelectionsTextures[] = {"SOS_Vests\Data\first_vests\DURALEX.paa"};
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\first_vests\DURALEX.paa"};
     class ItemInfo : ItemInfo {
         uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
         containerClass = "Supply140";
@@ -654,7 +654,7 @@ class cat_Vest_76561198014659963: V_PlateCarrier1_rgr {
     picture = "\A3\characters_f\Data\UI\icon_V_plate_carrier_1_CA.paa";
     model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
     hiddenSelections[] = {"camo"};
-    hiddenSelectionsTextures[] = {"SOS_Vests\Data\first_vests\craneboy2.paa"};
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\first_vests\craneboy2.paa"};
     class ItemInfo : ItemInfo {
         uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
         containerClass = "Supply140";
@@ -691,7 +691,7 @@ class cat_Vest_76561198028394243: V_PlateCarrier1_rgr {
     picture = "\A3\characters_f\Data\UI\icon_V_plate_carrier_1_CA.paa";
     model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
     hiddenSelections[] = {"camo"};
-    hiddenSelectionsTextures[] = {"SOS_Vests\Data\first_vests\Catshannon.paa"}; 
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\first_vests\Catshannon.paa"}; 
     class ItemInfo : ItemInfo {
         uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
         containerClass = "Supply140";
@@ -728,7 +728,7 @@ class cat_Vest_76561198003800788: V_PlateCarrier1_rgr {
     picture = "\A3\characters_f\Data\UI\icon_V_plate_carrier_1_CA.paa";
     model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
     hiddenSelections[] = {"camo"};
-    hiddenSelectionsTextures[] = {"SOS_Vests\Data\first_vests\Boone.paa"};  
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\first_vests\Boone.paa"};  
     class ItemInfo : ItemInfo {
         uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
         containerClass = "Supply140";
@@ -765,7 +765,7 @@ class cat_Vest_76561197978623097: V_PlateCarrier1_rgr {
     picture = "\A3\characters_f\Data\UI\icon_V_plate_carrier_1_CA.paa";
     model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
     hiddenSelections[] = {"camo"};
-    hiddenSelectionsTextures[] = {"SOS_Vests\Data\first_vests\Bob.paa"}; 
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\first_vests\Bob.paa"}; 
     class ItemInfo : ItemInfo {
         uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
         containerClass = "Supply140";
@@ -802,7 +802,7 @@ class cat_Vest_76561197970635861: V_PlateCarrier1_rgr {
     picture = "\A3\characters_f\Data\UI\icon_V_plate_carrier_1_CA.paa";
     model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
     hiddenSelections[] = {"camo"};
-    hiddenSelectionsTextures[] = {"SOS_Vests\Data\first_vests\Baedeker.paa"};
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\first_vests\Baedeker.paa"};
     class ItemInfo : ItemInfo {
         uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
         containerClass = "Supply140";
@@ -839,7 +839,7 @@ class cat_Vest_76561198015791827: V_PlateCarrier1_rgr {
     picture = "\A3\characters_f\Data\UI\icon_V_plate_carrier_1_CA.paa";
     model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
     hiddenSelections[] = {"camo"};
-    hiddenSelectionsTextures[] = {"SOS_Vests\Data\first_vests\Activity.paa"};  
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\first_vests\Activity.paa"};  
     class ItemInfo : ItemInfo {
         uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
         containerClass = "Supply140";
@@ -876,7 +876,7 @@ class cat_Vest_76561197980263448: V_PlateCarrier1_rgr {
     picture = "\A3\characters_f\Data\UI\icon_V_plate_carrier_1_CA.paa";
     model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
     hiddenSelections[] = {"camo"};
-    hiddenSelectionsTextures[] = {"SOS_Vests\Data\first_vests\313PH4N7.paa"}; 
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\first_vests\313PH4N7.paa"}; 
     class ItemInfo : ItemInfo {
         uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
         containerClass = "Supply140";

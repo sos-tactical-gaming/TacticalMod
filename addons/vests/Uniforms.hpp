@@ -35,11 +35,11 @@ class SOS_Splinter : U_BG_Guerrilla_6_1 {
     author = "[S.O.S] Catshannon";
     scope = 2;
     weaponPoolAvailable = 1;
-    displayName = "SOS Splinter Camo";
+    displayName = "Splinter Camo";
     picture = "\A3\characters_f_bootcamp\data\ui\icon_U_G_guerrilla_6_1_ca.paa";
     model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
     hiddenSelections[] = {"camo"};
-    hiddenSelectionsTextures[] = {"SOS_Vests\Data\uniforms\SplinterGue.paa"};
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\SplinterGue.paa"};
     class ItemInfo: UniformItem {
         uniformModel = "-";
         uniformClass = "SOS_Rifleman_Splinter";
@@ -51,11 +51,11 @@ class SOS_Desert : U_BG_Guerrilla_6_1 {
     author = "[S.O.S] Catshannon";
     scope = 2;
     weaponPoolAvailable = 1;
-    displayName = "SOS Desert Camo";
+    displayName = "Desert Camo";
     picture = "\A3\characters_f_bootcamp\data\ui\icon_U_G_guerrilla_6_1_ca.paa";
     model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
     hiddenSelections[] = {"camo"};
-    hiddenSelectionsTextures[] = {"SOS_Vests\Data\uniforms\DesertGue.paa"};
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\DesertGue.paa"};
     class ItemInfo: UniformItem {
         uniformModel = "-";
         uniformClass = "SOS_Rifleman_Desert";
@@ -67,10 +67,10 @@ class SOS_Winter: U_BG_Guerrilla_6_1 {
     author = "[S.O.S] Catshannon";
     scope = 2;
     weaponPoolAvailable = 1;
-    displayName = "SOS Winter Camo";
+    displayName = "Winter Camo";
     picture = "\A3\characters_f_bootcamp\data\ui\icon_U_G_guerrilla_6_1_ca.paa";
     model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
-    hiddenSelectionsTextures[] = {"SOS_Vests\Data\uniforms\WinterGue.paa"};
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\WinterGue.paa"};
     class ItemInfo: UniformItem {
         uniformModel = "-";
         uniformClass = "SOS_Rifleman_Winter";
@@ -82,10 +82,10 @@ class SOS_BW: U_BG_Guerrilla_6_1 {
     author = "[S.O.S] Henri";
     scope = 2;
     weaponPoolAvailable = 1;
-    displayName = "SOS BW Camo";
+    displayName = "BW Camo";
     picture = "\A3\characters_f_bootcamp\data\ui\icon_U_G_guerrilla_6_1_ca.paa";
     model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
-    hiddenSelectionsTextures[] = {"SOS_Vests\Data\uniforms\FleckTarn.paa"};
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\FleckTarn.paa"};
     class ItemInfo: UniformItem {
         uniformModel = "-";
         uniformClass = "SOS_Rifleman_BW";
@@ -97,10 +97,10 @@ class SOS_Lush: U_BG_Guerrilla_6_1 {
     author = "[S.O.S] Henri";
     scope = 2;
     weaponPoolAvailable = 1;
-    displayName = "SOS Lush Camo";
+    displayName = "Lush Camo";
     picture = "\A3\characters_f_bootcamp\data\ui\icon_U_G_guerrilla_6_1_ca.paa";
     model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
-    hiddenSelectionsTextures[] = {"SOS_Vests\Data\uniforms\LushCam.paa"};
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\LushCam.paa"};
     class ItemInfo: UniformItem {
         uniformModel = "-";
         uniformClass = "SOS_Rifleman_Lush";
@@ -112,10 +112,10 @@ class SOS_Lush2: U_BG_Guerrilla_6_1 {
     author = "[S.O.S] Henri";
     scope = 2;
     weaponPoolAvailable = 1;
-    displayName = "SOS Lush BW Camo";
+    displayName = "Lush BW Camo";
     picture = "\A3\characters_f_bootcamp\data\ui\icon_U_G_guerrilla_6_1_ca.paa";
     model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
-    hiddenSelectionsTextures[] = {"SOS_Vests\Data\uniforms\LushCam2.paa"};
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\LushCam2.paa"};
     class ItemInfo: UniformItem {
         uniformModel = "-";
         uniformClass = "SOS_Rifleman_Lush2";
@@ -127,10 +127,10 @@ class SOS_Urban: U_BG_Guerrilla_6_1 {
     author = "[S.O.S] Henri";
     scope = 2;
     weaponPoolAvailable = 1;
-    displayName = "SOS Urban Camo";
+    displayName = "Urban Camo";
     picture = "\A3\characters_f_bootcamp\data\ui\icon_U_G_guerrilla_6_1_ca.paa";
     model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
-    hiddenSelectionsTextures[] = {"SOS_Vests\Data\uniforms\UrbanCam.paa"};
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\UrbanCam.paa"};
     class ItemInfo: UniformItem {
         uniformModel = "-";
         uniformClass = "SOS_Rifleman_Urban";
@@ -142,10 +142,10 @@ class SOS_Urban2: U_BG_Guerrilla_6_1 {
     author = "[S.O.S] Henri";
     scope = 2;
     weaponPoolAvailable = 1;
-    displayName = "SOS Urban BW Camo";
+    displayName = "Urban BW Camo";
     picture = "\A3\characters_f_bootcamp\data\ui\icon_U_G_guerrilla_6_1_ca.paa";
     model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
-    hiddenSelectionsTextures[] = {"SOS_Vests\Data\uniforms\UrbanCam2.paa"};
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\UrbanCam2.paa"};
     class ItemInfo: UniformItem {
         uniformModel = "-";
         uniformClass = "SOS_Rifleman_Urban2";
@@ -157,10 +157,10 @@ class SOS_UrbanRugged: U_BG_Guerrilla_6_1 {
     author = "[S.O.S] Henri";
     scope = 2;
     weaponPoolAvailable = 1;
-    displayName = "SOS Rugged Urban Camo";
+    displayName = "Rugged Urban Camo";
     picture = "\A3\characters_f_bootcamp\data\ui\icon_U_G_guerrilla_6_1_ca.paa";
     model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
-    hiddenSelectionsTextures[] = {"SOS_Vests\Data\uniforms\UrbanRugged.paa"};
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\UrbanRugged.paa"};
     class ItemInfo: UniformItem {
         uniformModel = "-";
         uniformClass = "SOS_Rifleman_UrbanRugged";
@@ -172,10 +172,10 @@ class SOS_LushRugged: U_BG_Guerrilla_6_1 {
     author = "[S.O.S] Henri";
     scope = 2;
     weaponPoolAvailable = 1;
-    displayName = "SOS Rugged Lush Camo";
+    displayName = "Rugged Lush Camo";
     picture = "\A3\characters_f_bootcamp\data\ui\icon_U_G_guerrilla_6_1_ca.paa";
     model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
-    hiddenSelectionsTextures[] = {"SOS_Vests\Data\uniforms\LushRugged.paa"};
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\LushRugged.paa"};
     class ItemInfo: UniformItem {
         uniformModel = "-";
         uniformClass = "SOS_Rifleman_LushRugged";
@@ -187,10 +187,10 @@ class SOS_AtacLe: U_BG_Guerrilla_6_1 {
     author = "[S.O.S] Henri";
     scope = 2;
     weaponPoolAvailable = 1;
-    displayName = "SOS Atac LE Camo";
+    displayName = "Atac LE Camo";
     picture = "\A3\characters_f_bootcamp\data\ui\icon_U_G_guerrilla_6_1_ca.paa";
     model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
-    hiddenSelectionsTextures[] = {"SOS_Vests\Data\uniforms\AtacLeCam.paa"};
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\AtacLeCam.paa"};
     class ItemInfo: UniformItem {
         uniformModel = "-";
         uniformClass = "SOS_Rifleman_AtacLe";

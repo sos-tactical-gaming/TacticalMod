@@ -34,7 +34,7 @@ class CfgVehicles {
         uniformClass = "SOS_Winter";
         displayName = "SOS Rifleman";
         hiddenSelections[] = {"Camo", "insignia"};
-        hiddenSelectionsTextures[] = {"\SOS_Vests\data\uniforms\WinterGue.paa"};
+        hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\WinterGue.paa"};
     };
     class SOS_Rifleman_Splinter: B_G_Soldier_LAT_F {
         side = 1;
@@ -44,7 +44,7 @@ class CfgVehicles {
         uniformClass = "SOS_Splinter";
         displayName = "SOS Rifleman";
         hiddenSelections[] = {"Camo", "insignia"};
-        hiddenSelectionsTextures[] = {"\SOS_Vests\data\uniforms\SplinterGue.paa"};
+        hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\SplinterGue.paa"};
     };
     class SOS_Rifleman_Desert: B_G_Soldier_LAT_F {
         side = 1;
@@ -54,7 +54,7 @@ class CfgVehicles {
         uniformClass = "SOS_Desert";
         displayName = "SOS Rifleman";
         hiddenSelections[] = {"Camo", "insignia"};
-        hiddenSelectionsTextures[] = {"\SOS_Vests\data\uniforms\DesertGue.paa"};
+        hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\DesertGue.paa"};
     };    
     class SOS_Rifleman_BW: B_G_Soldier_LAT_F {
         side = 1;
@@ -64,7 +64,7 @@ class CfgVehicles {
         uniformClass = "SOS_BW";
         displayName = "SOS Rifleman";
         hiddenSelections[] = {"Camo", "insignia"};
-        hiddenSelectionsTextures[] = {"\SOS_Vests\data\uniforms\FleckTarn.paa"};
+        hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\FleckTarn.paa"};
     };
     class SOS_Rifleman_Lush2: B_G_Soldier_LAT_F {
         side = 1;
@@ -74,7 +74,7 @@ class CfgVehicles {
         uniformClass = "SOS_Lush2";
         displayName = "SOS Rifleman";
         hiddenSelections[] = {"Camo", "insignia"};
-        hiddenSelectionsTextures[] = {"\SOS_Vests\data\uniforms\LushCam2.paa"};
+        hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\LushCam2.paa"};
     };
     class SOS_Rifleman_Lush: B_G_Soldier_LAT_F {
         side = 1;
@@ -84,7 +84,7 @@ class CfgVehicles {
         uniformClass = "SOS_Lush";
         displayName = "SOS Rifleman";
         hiddenSelections[] = {"Camo", "insignia"};
-        hiddenSelectionsTextures[] = {"\SOS_Vests\data\uniforms\LushCam.paa"};
+        hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\LushCam.paa"};
     };
     class SOS_Rifleman_Urban: B_G_Soldier_LAT_F {
         side = 1;
@@ -94,7 +94,7 @@ class CfgVehicles {
         uniformClass = "SOS_Urban";
         displayName = "SOS Rifleman";
         hiddenSelections[] = {"Camo", "insignia"};
-        hiddenSelectionsTextures[] = {"\SOS_Vests\data\uniforms\UrbanCam.paa"};
+        hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\UrbanCam.paa"};
     };
     class SOS_Rifleman_Urban2: B_G_Soldier_LAT_F {
         side = 1;
@@ -104,7 +104,7 @@ class CfgVehicles {
         uniformClass = "SOS_Urban2";
         displayName = "SOS Rifleman";
         hiddenSelections[] = {"Camo", "insignia"};
-        hiddenSelectionsTextures[] = {"\SOS_Vests\data\uniforms\UrbanCam2.paa"};
+        hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\UrbanCam2.paa"};
     };
     class SOS_Rifleman_UrbanRugged: B_G_Soldier_LAT_F {
         side = 1;
@@ -114,7 +114,7 @@ class CfgVehicles {
         uniformClass = "SOS_UrbanRugged";
         displayName = "SOS Rifleman";
         hiddenSelections[] = {"Camo", "insignia"};
-        hiddenSelectionsTextures[] = {"\SOS_Vests\data\uniforms\UrbanRugged.paa"};
+        hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\UrbanRugged.paa"};
     };
     class SOS_Rifleman_LushRugged: B_G_Soldier_LAT_F {
         side = 1;
@@ -124,7 +124,7 @@ class CfgVehicles {
         uniformClass = "SOS_LushRugged";
         displayName = "SOS Rifleman";
         hiddenSelections[] = {"Camo", "insignia"};
-        hiddenSelectionsTextures[] = {"\SOS_Vests\data\uniforms\LushRugged.paa"};
+        hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\LushRugged.paa"};
     };
     class SOS_Rifleman_AtacLe: B_G_Soldier_LAT_F {
         side = 1;
@@ -134,6 +134,6 @@ class CfgVehicles {
         uniformClass = "SOS_AtacLe";
         displayName = "SOS Rifleman";
         hiddenSelections[] = {"Camo", "insignia"};
-        hiddenSelectionsTextures[] = {"\SOS_Vests\data\uniforms\AtacLeCam.paa"};
+        hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\AtacLeCam.paa"};
     };
 };

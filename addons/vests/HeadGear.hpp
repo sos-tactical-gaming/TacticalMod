@@ -24,6 +24,22 @@ class Beret_SOS_officer_blk: H_Beret_blk {
     model = "\A3\Characters_F\Common\headgear_beret01";
     hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\headgear\SOS-Beret-2.paa"};
 };
+class BW_MICH: H_HelmetB {
+    author = "[S.O.S] Henri";
+    weaponPoolAvailable = 1;
+    picture = "\a3\characters_f_beta\data\ui\icon_h_i_helmet_canvas_ca.paa";
+    displayName = "Flektarn MICH";
+    model = "A3\characters_f_beta\INDEP\headgear_helmet_canvas";
+    hiddenSelections[] = {"camo"};
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\headgear\BW_MICH.paa"};
+    class ItemInfo: ItemInfo {
+        mass = 40;
+        uniformModel = "A3\characters_f_beta\INDEP\headgear_helmet_canvas";
+        armor = 3;
+        passThrough = 0.5500000;
+        hiddenSelections[] = {"camo"};
+    };
+};
 class Medic_ECH_Light: H_HelmetB {
     author = "[S.O.S] Catshannon";
     weaponPoolAvailable = 1;

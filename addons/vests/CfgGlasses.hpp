@@ -1,3 +1,3 @@
-class cfgGlasses {
+class CfgGlasses {
 	#include "facewear.hpp"
 };

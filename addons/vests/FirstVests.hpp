@@ -7,7 +7,7 @@ class cat_Vest_pleb: V_PlateCarrier1_rgr {
     model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
     hiddenSelections[] = {"camo"};
     hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\Pleb.paa"}; 
-class ItemInfo : ItemInfo {
+    class ItemInfo : ItemInfo {
         uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
         containerClass = "Supply140";
         mass = 80;

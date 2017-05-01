@@ -82,7 +82,7 @@ class SOS_BW: U_BG_Guerrilla_6_1 {
     author = "[S.O.S] Henri";
     scope = 2;
     weaponPoolAvailable = 1;
-    displayName = "BW Camo";
+    displayName = "Flecktarn Camo";
     picture = "\A3\characters_f_bootcamp\data\ui\icon_U_G_guerrilla_6_1_ca.paa";
     model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
     hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\FleckTarn.paa"};
@@ -112,7 +112,7 @@ class SOS_Lush2: U_BG_Guerrilla_6_1 {
     author = "[S.O.S] Henri";
     scope = 2;
     weaponPoolAvailable = 1;
-    displayName = "Lush BW Camo";
+    displayName = "Lush Flecktarn Camo";
     picture = "\A3\characters_f_bootcamp\data\ui\icon_U_G_guerrilla_6_1_ca.paa";
     model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
     hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\LushCam2.paa"};
@@ -142,7 +142,7 @@ class SOS_Urban2: U_BG_Guerrilla_6_1 {
     author = "[S.O.S] Henri";
     scope = 2;
     weaponPoolAvailable = 1;
-    displayName = "Urban BW Camo";
+    displayName = "Urban Flecktarn Camo";
     picture = "\A3\characters_f_bootcamp\data\ui\icon_U_G_guerrilla_6_1_ca.paa";
     model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
     hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\UrbanCam2.paa"};
@@ -187,7 +187,7 @@ class SOS_AtacLe: U_BG_Guerrilla_6_1 {
     author = "[S.O.S] Henri";
     scope = 2;
     weaponPoolAvailable = 1;
-    displayName = "Atac LE Camo";
+    displayName = "A-TACS LE Camo";
     picture = "\A3\characters_f_bootcamp\data\ui\icon_U_G_guerrilla_6_1_ca.paa";
     model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
     hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\AtacLeCam.paa"};

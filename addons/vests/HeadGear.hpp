@@ -59,6 +59,7 @@ class ECHL_DPM: H_HelmetB {
     };
 };
 class COLOUR_HEAD: H_HelmetB_black {
+    scope = 0;
     author = "[S.O.S] Henri";
     weaponPoolAvailable = 1;
     picture = "\A3\characters_f\Data\UI\icon_H_HelmetSpecB_CA.paa";
@@ -78,7 +79,7 @@ class BW_HEAD: H_HelmetB_black {
     author = "[S.O.S] Henri";
     weaponPoolAvailable = 1;
     picture = "\A3\characters_f\Data\UI\icon_H_HelmetSpecB_CA.paa";
-    displayName = "BW Helmet";
+    displayName = "Flecktarn Helmet";
     model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_ballistic";
     hiddenSelections[] = {"camo"};
     hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\headgear\BW_Helmet.paa"};
@@ -126,7 +127,7 @@ class LUSH_HEAD2: H_HelmetB_black {
     author = "[S.O.S] Henri";
     weaponPoolAvailable = 1;
     picture = "\A3\characters_f\Data\UI\icon_H_HelmetSpecB_CA.paa";
-    displayName = "Lush BW Helmet";
+    displayName = "Lush Flecktarn Helmet";
     model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_ballistic";
     hiddenSelections[] = {"camo"};
     hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\headgear\Lush_Helmet2.paa"};
@@ -142,7 +143,7 @@ class URBAN_HEAD2: H_HelmetB_black {
     author = "[S.O.S] Henri";
     weaponPoolAvailable = 1;
     picture = "\A3\characters_f\Data\UI\icon_H_HelmetSpecB_CA.paa";
-    displayName = "Urban BW Helmet";
+    displayName = "Urban Flecktarn Helmet";
     model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_ballistic";
     hiddenSelections[] = {"camo"};
     hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\headgear\Urban_Helmet2.paa"};

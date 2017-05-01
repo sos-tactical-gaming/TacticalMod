@@ -1,3 +1,7 @@
+class V_PlateCarrier1_rgr: ItemCore {
+    class ItemInfo;
+};
+
 class cat_Vest_pleb: V_PlateCarrier1_rgr {
     author = "[S.O.S] Catshannon";
     scope = 2;

@@ -1,3 +1,9 @@
+class UniformItem;
+class B_CTRG_Soldier_F;
+class U_B_CombatUniform_mcam_vest;
+class U_B_CTRG_Soldier_F;  
+class U_BG_Guerrilla_6_1;
+
 class SOS_wdl_rs: U_B_CombatUniform_mcam_vest {
     scope=2;
     displayName="Woodland Rolled Sleeves";

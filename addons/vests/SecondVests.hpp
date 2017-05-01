@@ -1,3 +1,10 @@
+class V_PlateCarrierIA1_dgtl: ItemCore {
+    class ItemInfo;
+};
+class V_PlateCarrierIA2_dgtl: ItemCore {        
+    class ItemInfo;
+};
+
 class cat_vest2_76561197974805504: V_PlateCarrierIA2_dgtl {
     author = "[S.O.S] Catshannon";
     scope = 2;

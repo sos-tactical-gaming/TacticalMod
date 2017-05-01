@@ -1,3 +1,15 @@
+class H_Beret_blk;
+
+class H_CrewHelmetHeli_B: ItemCore {
+    class HeadgearItem;
+};
+class H_HelmetB: ItemCore {
+    class HeadgearItem;
+};
+class H_HelmetB_black: ItemCore {
+    class HeadgearItem;
+};
+
 class Beret_SOS_officer: H_Beret_blk {
     displayName = "SOS Officer's Beret (Green)";
     picture = "\A3\characters_f\Data\ui\icon_h_beret_blk_ca.paa";

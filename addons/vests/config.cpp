@@ -13,3 +13,4 @@ class CfgPatches {
 #include "CfgVehicleClasses.hpp"
 #include "CfgVehicles.hpp"
 #include "CfgWeapons.hpp"
+#include "CfgGlasses.hpp"

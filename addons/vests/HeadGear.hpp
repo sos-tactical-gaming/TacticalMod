@@ -1,5 +1,7 @@
 class H_Beret_blk;
 
+class H_Cap_marshal;
+
 class H_CrewHelmetHeli_B: ItemCore {
     class ItemInfo;
 };
@@ -198,18 +200,11 @@ class Medic_Helicrew: H_CrewHelmetHeli_B {
         hiddenSelections[] = {"camo"};
     };
 };
-class Medic_Cap: H_HelmetB {
+class Medic_Cap: H_Cap_marshal {
     author = "[S.O.S] Catshannon";
     weaponPoolAvailable = 1;
     displayName = "Medic Cap";
     picture = "\A3\Characters_F\data\ui\icon_H_Cap_headphones_khk_CA.paa";
     model = "\A3\Characters_F\common\capb_headphones.p3d";
     hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\headgear\MedicCap.paa"};
-    class ItemInfo: ItemInfo {
-        mass = 8;
-        uniformModel = "\A3\Characters_F\common\capb_headphones.p3d";
-        hiddenSelections[] = {"camo"};
-        armor = 0;
-        passThrough = 1;
-    };
 };

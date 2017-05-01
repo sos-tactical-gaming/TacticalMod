@@ -1,5 +1,4 @@
 class H_Beret_blk;
-
 class H_Cap_marshal;
 
 class H_CrewHelmetHeli_B: ItemCore {
@@ -8,27 +7,27 @@ class H_CrewHelmetHeli_B: ItemCore {
 class H_HelmetB: ItemCore {
     class ItemInfo;
 };
-class H_HelmetB_black: ItemCore {
-    class ItemInfo;
-};
 
 class Beret_SOS_officer: H_Beret_blk {
+    scope = 2;
     displayName = "SOS Officer's Beret (Green)";
     picture = "\A3\characters_f\Data\ui\icon_h_beret_blk_ca.paa";
     model = "\A3\Characters_F\Common\headgear_beret01";
     hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\headgear\SOS-Beret-1.paa"};
 };
 class Beret_SOS_officer_blk: H_Beret_blk {
+    scope = 2;
     displayName = "SOS Officer's Beret (Black)}";
     picture = "\A3\characters_f\Data\ui\icon_h_beret_blk_ca.paa";
     model = "\A3\Characters_F\Common\headgear_beret01";
     hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\headgear\SOS-Beret-2.paa"};
 };
 class BW_MICH: H_HelmetB {
+    scope = 2;
     author = "[S.O.S] Henri";
     weaponPoolAvailable = 1;
     picture = "\a3\characters_f_beta\data\ui\icon_h_i_helmet_canvas_ca.paa";
-    displayName = "Flektarn MICH";
+    displayName = "Flecktarn MICH";
     model = "A3\characters_f_beta\INDEP\headgear_helmet_canvas";
     hiddenSelections[] = {"camo"};
     hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\headgear\BW_MICH.paa"};
@@ -41,6 +40,7 @@ class BW_MICH: H_HelmetB {
     };
 };
 class Medic_ECH_Light: H_HelmetB {
+    scope = 2;
     author = "[S.O.S] Catshannon";
     weaponPoolAvailable = 1;
     picture = "\A3\characters_f\Data\UI\icon_H_HelmetSpecB_CA.paa";
@@ -57,6 +57,7 @@ class Medic_ECH_Light: H_HelmetB {
     };
 };
 class Medic_ECH_Light_Black: H_HelmetB {
+    scope = 2;
     author = "[S.O.S] Catshannon";
     weaponPoolAvailable = 1;
     picture = "\A3\characters_f\Data\UI\icon_H_HelmetSpecB_CA.paa";
@@ -73,6 +74,7 @@ class Medic_ECH_Light_Black: H_HelmetB {
     };
 };
 class ECHL_DPM: H_HelmetB {
+    scope = 2;
     author = "[S.O.S] Catshannon";
     weaponPoolAvailable = 1;
     picture = "\A3\characters_f\Data\UI\icon_H_HelmetSpecB_CA.paa";
@@ -88,24 +90,8 @@ class ECHL_DPM: H_HelmetB {
         hiddenSelections[] = {"camo"};
     };
 };
-class COLOUR_HEAD: H_HelmetB_black {
-    scope = 0;
-    author = "[S.O.S] Henri";
-    weaponPoolAvailable = 1;
-    picture = "\A3\characters_f\Data\UI\icon_H_HelmetSpecB_CA.paa";
-    displayName = "Colourmap";
-    model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_ballistic";
-    hiddenSelections[] = {"camo"};
-    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\headgear\Colourmap.paa"};
-    class ItemInfo: ItemInfo {
-        mass = 40;
-        uniformModel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_ballistic";
-        armor = 3;
-        passThrough = 0.5500000;
-        hiddenSelections[] = {"camo"};
-    };
-};
-class BW_HEAD: H_HelmetB_black {
+class BW_HEAD: H_HelmetB {
+    scope = 2;
     author = "[S.O.S] Henri";
     weaponPoolAvailable = 1;
     picture = "\A3\characters_f\Data\UI\icon_H_HelmetSpecB_CA.paa";
@@ -121,7 +107,8 @@ class BW_HEAD: H_HelmetB_black {
         hiddenSelections[] = {"camo"};
     };
 };
-class URBAN_HEAD: H_HelmetB_black {
+class URBAN_HEAD: H_HelmetB {
+    scope = 2;
     author = "[S.O.S] Henri";
     weaponPoolAvailable = 1;
     picture = "\A3\characters_f\Data\UI\icon_H_HelmetSpecB_CA.paa";
@@ -137,7 +124,8 @@ class URBAN_HEAD: H_HelmetB_black {
         hiddenSelections[] = {"camo"};
     };
 };
-class LUSH_HEAD: H_HelmetB_black {
+class LUSH_HEAD: H_HelmetB {
+    scope = 2;
     author = "[S.O.S] Henri";
     weaponPoolAvailable = 1;
     picture = "\A3\characters_f\Data\UI\icon_H_HelmetSpecB_CA.paa";
@@ -153,7 +141,8 @@ class LUSH_HEAD: H_HelmetB_black {
         hiddenSelections[] = {"camo"};
     };
 };
-class LUSH_HEAD2: H_HelmetB_black {
+class LUSH_HEAD2: H_HelmetB {
+    scope = 2;
     author = "[S.O.S] Henri";
     weaponPoolAvailable = 1;
     picture = "\A3\characters_f\Data\UI\icon_H_HelmetSpecB_CA.paa";
@@ -169,7 +158,8 @@ class LUSH_HEAD2: H_HelmetB_black {
         hiddenSelections[] = {"camo"};
     };
 };
-class URBAN_HEAD2: H_HelmetB_black {
+class URBAN_HEAD2: H_HelmetB {
+    scope = 2;
     author = "[S.O.S] Henri";
     weaponPoolAvailable = 1;
     picture = "\A3\characters_f\Data\UI\icon_H_HelmetSpecB_CA.paa";
@@ -186,6 +176,7 @@ class URBAN_HEAD2: H_HelmetB_black {
     };
 };
 class Medic_ECH_DPM: H_HelmetB {
+    scope = 2;
     author = "[S.O.S] Catshannon";
     weaponPoolAvailable = 1;
     picture = "\A3\characters_f\Data\UI\icon_H_HelmetSpecB_CA.paa";
@@ -202,6 +193,7 @@ class Medic_ECH_DPM: H_HelmetB {
     };
 };
 class Medic_Helicrew: H_CrewHelmetHeli_B {
+    scope = 2;
     author = "[S.O.S] Catshannon";
     weaponPoolAvailable = 1;
     picture = "\A3\Characters_F\data\ui\icon_H_Pilot_Helmet_Heli_OI_CA.paa";
@@ -217,6 +209,7 @@ class Medic_Helicrew: H_CrewHelmetHeli_B {
     };
 };
 class Medic_Cap: H_Cap_marshal {
+    scope = 2;
     author = "[S.O.S] Catshannon";
     weaponPoolAvailable = 1;
     displayName = "Medic Cap";

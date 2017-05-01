@@ -1,13 +1,13 @@
 class H_Beret_blk;
 
 class H_CrewHelmetHeli_B: ItemCore {
-    class HeadgearItem;
+    class ItemInfo;
 };
 class H_HelmetB: ItemCore {
-    class HeadgearItem;
+    class ItemInfo;
 };
 class H_HelmetB_black: ItemCore {
-    class HeadgearItem;
+    class ItemInfo;
 };
 
 class Beret_SOS_officer: H_Beret_blk {
@@ -30,7 +30,7 @@ class Medic_ECH_Light: H_HelmetB {
     model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_light";
     hiddenSelections[] = {"camo"};
     hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\headgear\ECHL_Medic.paa"};
-    class ItemInfo: HeadgearItem {
+    class ItemInfo: ItemInfo {
         mass = 40;
         uniformModel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_light";
         armor = 3;
@@ -46,7 +46,7 @@ class Medic_ECH_Light_Black: H_HelmetB {
     model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_light";
     hiddenSelections[] = {"camo"};
     hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\headgear\ECHL_Medic_Black.paa"};
-    class ItemInfo: HeadgearItem {
+    class ItemInfo: ItemInfo {
         mass = 40;
         uniformModel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_light";
         armor = 3;
@@ -62,7 +62,7 @@ class ECHL_DPM: H_HelmetB {
     model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_light";
     hiddenSelections[] = {"camo"};
     hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\headgear\ECHL_DPM.paa"};
-    class ItemInfo: HeadgearItem {
+    class ItemInfo: ItemInfo {
         mass = 40;
         uniformModel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_light";
         armor = 3;
@@ -79,7 +79,7 @@ class COLOUR_HEAD: H_HelmetB_black {
     model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_ballistic";
     hiddenSelections[] = {"camo"};
     hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\headgear\Colourmap.paa"};
-    class ItemInfo: HeadgearItem {
+    class ItemInfo: ItemInfo {
         mass = 40;
         uniformModel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_ballistic";
         armor = 3;
@@ -95,7 +95,7 @@ class BW_HEAD: H_HelmetB_black {
     model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_ballistic";
     hiddenSelections[] = {"camo"};
     hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\headgear\BW_Helmet.paa"};
-    class ItemInfo: HeadgearItem {
+    class ItemInfo: ItemInfo {
         mass = 40;
         uniformModel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_ballistic";
         armor = 3;
@@ -111,7 +111,7 @@ class URBAN_HEAD: H_HelmetB_black {
     model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_ballistic";
     hiddenSelections[] = {"camo"};
     hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\headgear\Urban_Helmet.paa"};
-    class ItemInfo: HeadgearItem {
+    class ItemInfo: ItemInfo {
         mass = 40;
         uniformModel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_ballistic";
         armor = 3;
@@ -127,7 +127,7 @@ class LUSH_HEAD: H_HelmetB_black {
     model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_ballistic";
     hiddenSelections[] = {"camo"};
     hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\headgear\Lush_Helmet.paa"};
-    class ItemInfo: HeadgearItem {
+    class ItemInfo: ItemInfo {
         mass = 40;
         uniformModel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_ballistic";
         armor = 3;
@@ -143,7 +143,7 @@ class LUSH_HEAD2: H_HelmetB_black {
     model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_ballistic";
     hiddenSelections[] = {"camo"};
     hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\headgear\Lush_Helmet2.paa"};
-    class ItemInfo: HeadgearItem {
+    class ItemInfo: ItemInfo {
         mass = 40;
         uniformModel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_ballistic";
         armor = 3;
@@ -159,7 +159,7 @@ class URBAN_HEAD2: H_HelmetB_black {
     model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_ballistic";
     hiddenSelections[] = {"camo"};
     hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\headgear\Urban_Helmet2.paa"};
-    class ItemInfo: HeadgearItem {
+    class ItemInfo: ItemInfo {
         mass = 40;
         uniformModel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_ballistic";
         armor = 3;
@@ -175,7 +175,7 @@ class Medic_ECH_DPM: H_HelmetB {
     model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_light";
     hiddenSelections[] = {"camo"};
     hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\headgear\ECHL_Medic_DPM.paa"};
-    class ItemInfo: HeadgearItem {
+    class ItemInfo: ItemInfo {
         mass = 40;
         uniformModel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_light";
         armor = 3;
@@ -190,7 +190,7 @@ class Medic_Helicrew: H_CrewHelmetHeli_B {
     displayName = "Helicrew (ParaMedic)";
     hiddenSelections[] = {"camo"};
     hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\headgear\HeliParaMedicHelm.paa"};
-    class ItemInfo: HeadgearItem {
+    class ItemInfo: ItemInfo {
         mass = 40;
         uniformModel = "A3\Characters_F\Common\headgear_helmet_heli_shield";
         armor = 3;
@@ -205,7 +205,7 @@ class Medic_Cap: H_HelmetB {
     picture = "\A3\Characters_F\data\ui\icon_H_Cap_headphones_khk_CA.paa";
     model = "\A3\Characters_F\common\capb_headphones.p3d";
     hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\headgear\MedicCap.paa"};
-    class ItemInfo: HeadgearItem {
+    class ItemInfo: ItemInfo {
         mass = 8;
         uniformModel = "\A3\Characters_F\common\capb_headphones.p3d";
         hiddenSelections[] = {"camo"};

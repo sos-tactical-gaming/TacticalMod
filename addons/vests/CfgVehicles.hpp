@@ -3,25 +3,38 @@ class CfgVehicles {
     class B_Competitor_F;
     class B_Soldier_base_F;
     class B_CTRG_Soldier_base_F;
-    class SOS_Rifleman_wdl: B_Soldier_base_F {
+	class B_Soldier_SL_F;
+	
+    class SOS_Rifleman_DPMF: B_Soldier_base_F {
         side = 1;
         scope = 1;        
         vehicleClass = "SOS_VehicleClass";
-        uniformClass = "SOS_wdl_rs";
+        uniformClass = "SOS_DPMF";
         hiddenSelections[] = {"Camo","insignia"};
-        hiddenSelectionsTextures[] = {"a3\characters_f\blufor\data\clothing_wdl_co.paa"};
+        hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\DPMF_NATO.paa"};
         linkedItems[] = {};
         weapons[] = {};
         magazines[] = {};
     };
-    class SOS_Rifleman_Stealth_wdl: B_CTRG_Soldier_base_F {
+	class SOS_Rifleman_DPMF_rs: B_Soldier_SL_F {
+        side = 1;
+        scope = 1;        
+        vehicleClass = "SOS_VehicleClass";
+        uniformClass = "SOS_DPMF_rs";
+        hiddenSelections[] = {"Camo","insignia"};
+        hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\DPMF_NATO.paa"};
+        linkedItems[] = {};
+        weapons[] = {};
+        magazines[] = {};
+    };
+    class SOS_Rifleman_Stealth_DPMF: B_CTRG_Soldier_base_F {
         side = 1;
         scope = 1;        
         model = "\A3\Characters_F_Exp\BLUFOR\B_CTRG_Soldier_01_F.p3d";
         nakedUniform = "U_BasicBody";
-        uniformClass = "SOS_Stealth_wdl";
+        uniformClass = "SOS_Stealth_DPMF";
         hiddenSelections[] = {"Camo","insignia"};
-        hiddenSelectionsTextures[] = {"a3\characters_f\blufor\data\clothing_wdl_co.paa"};
+        hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\DPMF_NATO.paa"};
         linkedItems[] = {};
         weapons[] = {};
         magazines[] = {};

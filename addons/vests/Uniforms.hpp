@@ -3,25 +3,38 @@ class B_CTRG_Soldier_F;
 class U_B_CombatUniform_mcam_vest;
 class U_B_CTRG_Soldier_F;  
 class U_BG_Guerrilla_6_1;
+class U_B_CTRG_3;
 
-class SOS_wdl_rs: U_B_CombatUniform_mcam_vest {
+class SOS_DPMF: U_B_CombatUniform_mcam_vest {
     scope = 2;
-    displayName = "Woodland Rolled Sleeves";
+    displayName = "DPM Woodland";
     picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
-    model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier.p3d";
     hiddenSelections[] = {"camo","insignia"};
     hiddenSelectionsTextures[] = {"a3\characters_f\blufor\data\clothing_wdl_co.paa"};
     class ItemInfo: UniformItem {
         uniformModel = "-";
-        uniformClass = "SOS_Rifleman_wdl";
+        uniformClass = "SOS_Rifleman_DPMF";
         containerClass = "Supply40";
         mass = 40;
     };
 };
-class SOS_Stealth_wdl: U_B_CTRG_Soldier_F {
+class SOS_DPMF_rs: U_B_CTRG_3 {
     scope = 2;
-    displayName = "Woodland Stealth";
-    picture = "\A3\characters_f_bootcamp\data\ui\icon_U_G_guerrilla_6_1_ca.paa";
+    displayName = "DPM Woodland (Rolled Sleeves)";
+    picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
+    hiddenSelections[] = {"camo","insignia"};
+    hiddenSelectionsTextures[] = {"a3\characters_f\blufor\data\clothing_wdl_co.paa"};
+    class ItemInfo: UniformItem {
+        uniformModel = "-";
+        uniformClass = "SOS_Rifleman_DPMF_rs";
+        containerClass = "Supply40";
+        mass = 40;
+    };
+};
+class SOS_Stealth_DPMF: U_B_CTRG_Soldier_F {
+    scope = 2;
+    displayName = "DPM Woodland Stealth";
+    picture = "\A3\characters_f\data\ui\icon_U_B_CombatUniform_mcam_ca.paa";
     DLC = "Expansion";
     model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier.p3d";
     hiddenSelections[] = {"Camo","insignia"};
@@ -29,7 +42,7 @@ class SOS_Stealth_wdl: U_B_CTRG_Soldier_F {
     class ItemInfo: UniformItem {
         scope = 2;
         uniformModel = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_soldier.p3d";
-        uniformClass = "SOS_Rifleman_Stealth_wdl";
+        uniformClass = "SOS_Rifleman_Stealth_DPMF";
         containerClass = "supply80";
         armor = 2;
         mass = 1;

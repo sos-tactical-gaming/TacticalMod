@@ -5,6 +5,36 @@ class CfgVehicles {
     class B_CTRG_Soldier_base_F;
 	class B_Soldier_SL_F;
 	class Heli_Transport_02_base_F;
+	class NATO_Box_Base;
+	
+	class SmokeSignalBox: NATO_Box_Base
+	{
+		scope = 2;
+		accuracy = 1000;
+		vehicleClass = "Ammo";
+		displayName = "AmmoBox_SmokeSignal";
+		hiddenSelectionsTextures[] = {"A3\Weapons_F\Ammoboxes\data\AmmoBox_signs_CA.paa","A3\Weapons_F\Ammoboxes\data\AmmoBox_CO.paa"};
+		model = "\A3\weapons_F\AmmoBoxes\AmmoBox_F";
+		icon = "iconCrateWpns";
+		maximumLoad = 99999;
+		transportMaxWeapons = 5000;
+		transportMaxMagazines = 20000;
+		transportMaxBackpacks = 50;
+		class TransportMagazines
+		{
+			class SmokeSignalRed
+			{
+				magazine = "SmokeSignalRed";
+				count = 1000;
+			};
+			class SmokeSignalGreen
+			{
+				magazine = "SmokeSignalGreen";
+				count = 1000;
+			};
+		};
+		class TransportItems{};
+	};
 	
 	class CH49_Mohawk_NATO: Heli_Transport_02_base_F
 	{
@@ -21,6 +51,7 @@ class CfgVehicles {
 		typicalCargo[] = {"B_Helipilot_F"};
 		availableForSupportTypes[] = {"Drop","Transport"};
 	};
+	
     class SOS_Rifleman_DPMF: B_Soldier_base_F {
         side = 1;
         scope = 1;        

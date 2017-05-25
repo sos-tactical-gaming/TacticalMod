@@ -4,6 +4,53 @@ class CfgVehicles {
     class B_Soldier_base_F;
     class B_CTRG_Soldier_base_F;
 	class B_Soldier_SL_F;
+	class Heli_Transport_02_base_F;
+	class NATO_Box_Base;
+	
+	class SmokeSignalBox: NATO_Box_Base
+	{
+		scope = 2;
+		accuracy = 1000;
+		vehicleClass = "Ammo";
+		displayName = "AmmoBox_SmokeSignal";
+		hiddenSelectionsTextures[] = {"A3\Weapons_F\Ammoboxes\data\AmmoBox_signs_CA.paa","A3\Weapons_F\Ammoboxes\data\AmmoBox_CO.paa"};
+		model = "\A3\weapons_F\AmmoBoxes\AmmoBox_F";
+		icon = "iconCrateWpns";
+		maximumLoad = 99999;
+		transportMaxWeapons = 5000;
+		transportMaxMagazines = 20000;
+		transportMaxBackpacks = 50;
+		class TransportMagazines
+		{
+			class SmokeSignalRed
+			{
+				magazine = "SmokeSignalRed";
+				count = 1000;
+			};
+			class SmokeSignalGreen
+			{
+				magazine = "SmokeSignalGreen";
+				count = 1000;
+			};
+		};
+		class TransportItems{};
+	};
+	
+	class CH49_Mohawk_NATO: Heli_Transport_02_base_F
+	{
+		_generalMacro = "B_Heli_Transport_02_base_F";
+		scope = 2;
+		side = 1;
+		faction = "BLU_F";
+		displayName = "CH49 Nato";
+		crew = "B_Helipilot_F";
+		hiddenSelections[] = {"camo1","camo2","camo3"};
+		hiddenSelectionsTextures[] = {
+			"\x\sos\addons\vests\Data\Vehicles\Helicopters\CH-49_Olive_1.paa","\x\sos\addons\vests\Data\Vehicles\Helicopters\CH-49_Olive_2.paa","\x\sos\addons\vests\Data\Vehicles\Helicopters\CH-49_Olive_3.paa"
+		};
+		typicalCargo[] = {"B_Helipilot_F"};
+		availableForSupportTypes[] = {"Drop","Transport"};
+	};
 	
     class SOS_Rifleman_DPMF: B_Soldier_base_F {
         side = 1;

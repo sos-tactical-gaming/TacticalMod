@@ -5,6 +5,43 @@ class V_PlateCarrierIA2_dgtl: ItemCore {
     class ItemInfo;
 };
 
+class cat_Vest2_76561197989584490: V_PlateCarrier1_rgr {
+    author = "[S.O.S] Catshannon";
+    scope = 2;
+    weaponPoolAvailable = 1;
+    displayName = "Maure's Platecarrier";
+    picture = "\A3\characters_f_Beta\Data\UI\icon_V_I_Vest_02_ca.paa";
+    model = "A3\Characters_F_Beta\INDEP\equip_ia_vest02";
+    hiddenSelections[] = {"camo"};
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\second_vests\Maure.paa"};
+    class ItemInfo : ItemInfo {
+    uniformModel = "A3\Characters_F_Beta\INDEP\equip_ia_vest02";
+    containerClass = "Supply120";
+    mass = 120;
+    armor = 40;
+    passThrough = 0.55;
+    hiddenSelections[] = {"camo"};
+    };
+};
+class cat_Vest2_76561198059683938: V_PlateCarrier1_rgr {
+    author = "[S.O.S] Catshannon";
+    scope = 2;
+    weaponPoolAvailable = 1;
+    displayName = "Wookie's Platecarrier";
+    picture = "\A3\characters_f_Beta\Data\UI\icon_V_I_Vest_02_ca.paa";
+    model = "A3\Characters_F_Beta\INDEP\equip_ia_vest02";
+    hiddenSelections[] = {"camo"};
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\second_vests\skWookie.paa"};
+    class ItemInfo : ItemInfo {
+    uniformModel = "A3\Characters_F_Beta\INDEP\equip_ia_vest02";
+    containerClass = "Supply120";
+    mass = 120;
+    armor = 40;
+    passThrough = 0.55;
+    hiddenSelections[] = {"camo"};
+    };
+};  
+
 class cat_vest2_76561197974805504: V_PlateCarrierIA2_dgtl {
     author = "[S.O.S] Catshannon";
     scope = 2;

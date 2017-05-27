@@ -95,7 +95,7 @@ class BW_ECH_Light_Medic: H_HelmetB {
     author = "[S.O.S] Henri";
     weaponPoolAvailable = 1;
     picture = "\A3\characters_f\Data\UI\icon_H_HelmetSpecB_CA.paa";
-    displayName = "ECH Light BW";
+    displayName = "Medic Flecktarn ECH Light";
     model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_light";
     hiddenSelections[] = {"camo"};
     hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\headgear\BW_Helmet_Medic.paa"};
@@ -112,7 +112,7 @@ class BW_ECH_Light: H_HelmetB {
     author = "[S.O.S] Henri";
     weaponPoolAvailable = 1;
     picture = "\A3\characters_f\Data\UI\icon_H_HelmetSpecB_CA.paa";
-    displayName = "ECH Light BW";
+    displayName = "Flecktarn ECH Light";
     model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_light";
     hiddenSelections[] = {"camo"};
     hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\headgear\BW_Helmet.paa"};

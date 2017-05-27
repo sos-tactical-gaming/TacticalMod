@@ -17,7 +17,7 @@ class SOS_BW_RS: U_I_CombatUniform_shortsleeve {
     hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\FleckTarnShirt.paa"};
     class ItemInfo: UniformItem {
         uniformModel = "-";
-        uniformClass = "SOS_Rifleman_ShirtFlek";
+        uniformClass = "SOS_Rifleman_BW_RS";
         containerClass = "Supply40";
         mass = 40;
     };

@@ -1,7 +1,7 @@
 class CfgWeapons {
     class ItemCore;
     
-	#include "weapons.hpp"
+    #include "Weapons.hpp"
     #include "FirstVests.hpp"
     #include "SecondVests.hpp"
     #include "Headgear.hpp"

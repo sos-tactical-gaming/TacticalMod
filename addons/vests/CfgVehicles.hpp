@@ -9,6 +9,8 @@ class CfgVehicles {
     class I_Soldier_F;
     class I_Soldier_lite_F;
     
+	#include "Backpacks.hpp"
+	
     class SmokeSignalBox: NATO_Box_Base {
         scope = 2;
         accuracy = 1000;
@@ -51,41 +53,7 @@ class CfgVehicles {
         typicalCargo[] = {"B_Helipilot_F"};
         availableForSupportTypes[] = {"Drop","Transport"};
     };
-    
-    class SOS_Rifleman_DPMF: B_Soldier_base_F {
-        side = 1;
-        scope = 1;        
-        vehicleClass = "SOS_VehicleClass";
-        uniformClass = "SOS_DPMF";
-        hiddenSelections[] = {"Camo","insignia"};
-        hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\DPMF_NATO.paa"};
-        linkedItems[] = {};
-        weapons[] = {};
-        magazines[] = {};
-    };
-    class SOS_Rifleman_DPMF_rs: B_Soldier_SL_F {
-        side = 1;
-        scope = 1;        
-        vehicleClass = "SOS_VehicleClass";
-        uniformClass = "SOS_DPMF_rs";
-        hiddenSelections[] = {"Camo","insignia"};
-        hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\DPMF_NATO.paa"};
-        linkedItems[] = {};
-        weapons[] = {};
-        magazines[] = {};
-    };
-    class SOS_Rifleman_Stealth_DPMF: B_CTRG_Soldier_base_F {
-        side = 1;
-        scope = 1;        
-        model = "\A3\Characters_F_Exp\BLUFOR\B_CTRG_Soldier_01_F.p3d";
-        nakedUniform = "U_BasicBody";
-        uniformClass = "SOS_Stealth_DPMF";
-        hiddenSelections[] = {"Camo","insignia"};
-        hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\DPMF_NATO.paa"};
-        linkedItems[] = {};
-        weapons[] = {};
-        magazines[] = {};
-    };
+	
     class SOS_Rifleman_BW_RS: I_Soldier_lite_F {
         side = 1;
         scope = 1;
@@ -96,6 +64,16 @@ class CfgVehicles {
         hiddenSelections[] = {"Camo", "insignia"};
         hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\FleckTarnShirt.paa"};
     };
+    class SOS_Rifleman_VT_RS: I_Soldier_lite_F {
+        side = 1;
+        scope = 1;
+        author = "[S.O.S] Henri";
+        vehicleClass = "SOS_VehicleClass";    
+        uniformClass = "SOS_VorotnikRS";
+        displayName = "SOS Rifleman";
+        hiddenSelections[] = {"Camo", "insignia"};
+        hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\VorotnikNonJumper.paa"};
+    };
     class SOS_Rifleman_ShirtFlek: I_Soldier_F {
         side = 1;
         scope = 1;
@@ -105,6 +83,16 @@ class CfgVehicles {
         displayName = "SOS Rifleman";
         hiddenSelections[] = {"Camo", "insignia"};
         hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\FleckTarnShirt.paa"};
+    };
+    class SOS_Rifleman_VTShirt: I_Soldier_F {
+        side = 1;
+        scope = 1;
+        author = "[S.O.S] Henri";
+        vehicleClass = "SOS_VehicleClass";    
+        uniformClass = "SOS_Rifleman_VTShirt";
+        displayName = "SOS Rifleman";
+        hiddenSelections[] = {"Camo", "insignia"};
+        hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\VorotnikNonJumper.paa"};
     };
     class SOS_Rifleman_Winter: B_G_Soldier_LAT_F {
         side = 1;
@@ -146,25 +134,15 @@ class CfgVehicles {
         hiddenSelections[] = {"Camo", "insignia"};
         hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\FleckTarn.paa"};
     };
-    class SOS_Rifleman_Lush2: B_G_Soldier_LAT_F {
+    class SOS_Rifleman_VT: B_G_Soldier_LAT_F {
         side = 1;
         scope = 1;
         author = "[S.O.S] Henri";
         vehicleClass = "SOS_VehicleClass";    
-        uniformClass = "SOS_Lush2";
+        uniformClass = "SOS_Rifleman_VT";
         displayName = "SOS Rifleman";
         hiddenSelections[] = {"Camo", "insignia"};
-        hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\LushCam2.paa"};
-    };
-    class SOS_Rifleman_Lush: B_G_Soldier_LAT_F {
-        side = 1;
-        scope = 1;
-        author = "[S.O.S] Henri";
-        vehicleClass = "SOS_VehicleClass";    
-        uniformClass = "SOS_Lush";
-        displayName = "SOS Rifleman";
-        hiddenSelections[] = {"Camo", "insignia"};
-        hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\LushCam.paa"};
+        hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\VorotnikJumper.paa"};
     };
     class SOS_Rifleman_Urban: B_G_Soldier_LAT_F {
         side = 1;
@@ -176,36 +154,6 @@ class CfgVehicles {
         hiddenSelections[] = {"Camo", "insignia"};
         hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\UrbanCam.paa"};
     };
-    class SOS_Rifleman_Urban2: B_G_Soldier_LAT_F {
-        side = 1;
-        scope = 1;
-        author = "[S.O.S] Henri";
-        vehicleClass = "SOS_VehicleClass";    
-        uniformClass = "SOS_Urban2";
-        displayName = "SOS Rifleman";
-        hiddenSelections[] = {"Camo", "insignia"};
-        hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\UrbanCam2.paa"};
-    };
-    class SOS_Rifleman_UrbanRugged: B_G_Soldier_LAT_F {
-        side = 1;
-        scope = 1;
-        author = "[S.O.S] Henri";
-        vehicleClass = "SOS_VehicleClass";    
-        uniformClass = "SOS_UrbanRugged";
-        displayName = "SOS Rifleman";
-        hiddenSelections[] = {"Camo", "insignia"};
-        hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\UrbanRugged.paa"};
-    };
-    class SOS_Rifleman_LushRugged: B_G_Soldier_LAT_F {
-        side = 1;
-        scope = 1;
-        author = "[S.O.S] Henri";
-        vehicleClass = "SOS_VehicleClass";    
-        uniformClass = "SOS_LushRugged";
-        displayName = "SOS Rifleman";
-        hiddenSelections[] = {"Camo", "insignia"};
-        hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\LushRugged.paa"};
-    };
     class SOS_Rifleman_AtacLe: B_G_Soldier_LAT_F {
         side = 1;
         scope = 1;
@@ -216,4 +164,5 @@ class CfgVehicles {
         hiddenSelections[] = {"Camo", "insignia"};
         hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\AtacLeCam.paa"};
     };
+	
 };

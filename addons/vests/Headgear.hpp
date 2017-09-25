@@ -22,23 +22,6 @@ class Beret_SOS_officer_blk: H_Beret_blk {
     model = "\A3\Characters_F\Common\headgear_beret01";
     hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\headgear\SOS-Beret-2.paa"};
 };
-class DPMF_MICH: H_HelmetB {
-    scope = 2;
-    author = "[S.O.S] Henri";
-    weaponPoolAvailable = 1;
-    picture = "\a3\characters_f_beta\data\ui\icon_h_i_helmet_canvas_ca.paa";
-    displayName = "DPM Woodland MICH";
-    model = "A3\characters_f_beta\INDEP\headgear_helmet_canvas";
-    hiddenSelections[] = {"camo"};
-    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\headgear\DPMF_MICH.paa"};
-    class ItemInfo: ItemInfo {
-        mass = 40;
-        uniformModel = "A3\characters_f_beta\INDEP\headgear_helmet_canvas";
-        armor = 3;
-        passThrough = 0.5500000;
-        hiddenSelections[] = {"camo"};
-    };
-};
 class BW_ECH_NET: H_HelmetB {
     scope = 2;
     author = "[S.O.S] Henri";
@@ -47,7 +30,24 @@ class BW_ECH_NET: H_HelmetB {
     displayName = "Flecktarn Camo (Webbed)";
     model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_camo";
 	hiddenSelections[] = {"camo1", "camo2"};
-    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\headgear\BW_Helmet.paa","\A3\characters_f\common\data\ghillie2_co.paa"};
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\headgear\BW_Helmet.paa","\x\sos\addons\vests\data\headgear\FTghillie2_co.paa"};
+    class ItemInfo: ItemInfo {
+        mass = 40;
+        uniformModel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_camo";
+        armor = 3;
+        passThrough = 0.5500000;
+        hiddenSelections[] = {"camo1","camo2"};
+    };
+};
+class VT_ECH_NET: H_HelmetB {
+    scope = 2;
+    author = "[S.O.S] Henri";
+    weaponPoolAvailable = 1;
+    picture = "\A3\characters_f\Data\UI\icon_H_HelmetSpecB_CA.paa";
+    displayName = "Vorotnik Camo (Webbed)";
+    model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_camo";
+	hiddenSelections[] = {"camo1", "camo2"};
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\headgear\Vorotnik_Helmet.paa","\x\sos\addons\vests\data\headgear\FTghillie2_co.paa"};
     class ItemInfo: ItemInfo {
         mass = 40;
         uniformModel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_camo";
@@ -73,6 +73,23 @@ class BW_MICH: H_HelmetB {
         hiddenSelections[] = {"camo"};
     };
 };
+class VT_MICH: H_HelmetB {
+    scope = 2;
+    author = "[S.O.S] Henri";
+    weaponPoolAvailable = 1;
+    picture = "\a3\characters_f_beta\data\ui\icon_h_i_helmet_canvas_ca.paa";
+    displayName = "Vorotnik MICH";
+    model = "A3\characters_f_beta\INDEP\headgear_helmet_canvas";
+    hiddenSelections[] = {"camo"};
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\headgear\Vorotnik_Mich.paa"};
+    class ItemInfo: ItemInfo {
+        mass = 40;
+        uniformModel = "A3\characters_f_beta\INDEP\headgear_helmet_canvas";
+        armor = 3;
+        passThrough = 0.5500000;
+        hiddenSelections[] = {"camo"};
+    };
+};
 class BW_HEAD: H_HelmetB {
     scope = 2;
     author = "[S.O.S] Henri";
@@ -82,6 +99,23 @@ class BW_HEAD: H_HelmetB {
     model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_ballistic";
     hiddenSelections[] = {"camo"};
     hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\headgear\BW_Helmet.paa"};
+    class ItemInfo: ItemInfo {
+        mass = 40;
+        uniformModel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_ballistic";
+        armor = 3;
+        passThrough = 0.5500000;
+        hiddenSelections[] = {"camo"};
+    };
+};
+class VT_HEAD: H_HelmetB {
+    scope = 2;
+    author = "[S.O.S] Henri";
+    weaponPoolAvailable = 1;
+    picture = "\A3\characters_f\Data\UI\icon_H_HelmetSpecB_CA.paa";
+    displayName = "Vorotnik ECH";
+    model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_ballistic";
+    hiddenSelections[] = {"camo"};
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\headgear\Vorotnik_Helmet.paa"};
     class ItemInfo: ItemInfo {
         mass = 40;
         uniformModel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_ballistic";
@@ -107,6 +141,25 @@ class BW_ECH_Light_Medic: H_HelmetB {
         hiddenSelections[] = {"camo"};
     };
 };
+
+class VT_ECH_Light_Medic: H_HelmetB {
+    scope = 2;
+    author = "[S.O.S] Henri";
+    weaponPoolAvailable = 1;
+    picture = "\A3\characters_f\Data\UI\icon_H_HelmetSpecB_CA.paa";
+    displayName = "Medic Vorotnik ECH Light";
+    model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_light";
+    hiddenSelections[] = {"camo"};
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\headgear\Vorotnik_Helmet_Medic.paa"};
+    class ItemInfo: ItemInfo {
+        mass = 40;
+        uniformModel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_light";
+        armor = 3;
+        passThrough = 0.5500000;
+        hiddenSelections[] = {"camo"};
+    };
+};
+
 class BW_ECH_Light: H_HelmetB {
     scope = 2;
     author = "[S.O.S] Henri";
@@ -116,6 +169,23 @@ class BW_ECH_Light: H_HelmetB {
     model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_light";
     hiddenSelections[] = {"camo"};
     hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\headgear\BW_Helmet.paa"};
+    class ItemInfo: ItemInfo {
+        mass = 40;
+        uniformModel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_light";
+        armor = 3;
+        passThrough = 0.5500000;
+        hiddenSelections[] = {"camo"};
+    };
+};
+class VT_ECH_Light: H_HelmetB {
+    scope = 2;
+    author = "[S.O.S] Henri";
+    weaponPoolAvailable = 1;
+    picture = "\A3\characters_f\Data\UI\icon_H_HelmetSpecB_CA.paa";
+    displayName = "Vorotnik ECH Light";
+    model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_light";
+    hiddenSelections[] = {"camo"};
+    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\headgear\Vorotnik_Helmet.paa"};
     class ItemInfo: ItemInfo {
         mass = 40;
         uniformModel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_light";
@@ -158,23 +228,6 @@ class Medic_ECH_Light_Black: H_HelmetB {
         hiddenSelections[] = {"camo"};
     };
 };
-class ECHL_DPM: H_HelmetB {
-    scope = 2;
-    author = "[S.O.S] Henri";
-    weaponPoolAvailable = 1;
-    picture = "\A3\characters_f\Data\UI\icon_H_HelmetSpecB_CA.paa";
-    displayName = "ECH Light (DPM)";
-    model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_light";
-    hiddenSelections[] = {"camo"};
-    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\headgear\ECHL_DPM.paa"};
-    class ItemInfo: ItemInfo {
-        mass = 40;
-        uniformModel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_light";
-        armor = 3;
-        passThrough = 0.5500000;
-        hiddenSelections[] = {"camo"};
-    };
-};
 class URBAN_HEAD: H_HelmetB {
     scope = 2;
     author = "[S.O.S] Henri";
@@ -184,91 +237,6 @@ class URBAN_HEAD: H_HelmetB {
     model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_ballistic";
     hiddenSelections[] = {"camo"};
     hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\headgear\Urban_Helmet.paa"};
-    class ItemInfo: ItemInfo {
-        mass = 40;
-        uniformModel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_ballistic";
-        armor = 3;
-        passThrough = 0.5500000;
-        hiddenSelections[] = {"camo"};
-    };
-};
-class DPMF_ECH_NET: H_HelmetB {
-    scope = 2;
-    author = "[S.O.S] Henri";
-    weaponPoolAvailable = 1;
-    picture = "\A3\characters_f\Data\UI\icon_H_HelmetSpecB_CA.paa";
-    displayName = "DPMF Camo Helmet";
-    model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_camo";
-	hiddenSelections[] = {"camo1", "camo2"};
-    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\headgear\DPMF_ECH.paa","\A3\characters_f\common\data\ghillie2_co.paa"};
-    class ItemInfo: ItemInfo {
-        mass = 40;
-        uniformModel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_camo";
-        armor = 3;
-        passThrough = 0.5500000;
-        hiddenSelections[] = {"camo1","camo2"};
-    };
-};
-class DPMF_ECH: H_HelmetB {
-    scope = 2;
-    author = "[S.O.S] Henri";
-    weaponPoolAvailable = 1;
-    picture = "\A3\characters_f\Data\UI\icon_H_HelmetSpecB_CA.paa";
-    displayName = "DPM Woodland Helmet";
-    model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_ballistic";
-    hiddenSelections[] = {"camo"};
-    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\headgear\DPMF_ECH.paa"};
-    class ItemInfo: ItemInfo {
-        mass = 40;
-        uniformModel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_ballistic";
-        armor = 3;
-        passThrough = 0.5500000;
-        hiddenSelections[] = {"camo"};
-    };
-};
-class LUSH_HEAD: H_HelmetB {
-    scope = 2;
-    author = "[S.O.S] Henri";
-    weaponPoolAvailable = 1;
-    picture = "\A3\characters_f\Data\UI\icon_H_HelmetSpecB_CA.paa";
-    displayName = "Lush Helmet";
-    model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_ballistic";
-    hiddenSelections[] = {"camo"};
-    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\headgear\Lush_Helmet.paa"};
-    class ItemInfo: ItemInfo {
-        mass = 40;
-        uniformModel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_ballistic";
-        armor = 3;
-        passThrough = 0.5500000;
-        hiddenSelections[] = {"camo"};
-    };
-};
-class LUSH_HEAD2: H_HelmetB {
-    scope = 2;
-    author = "[S.O.S] Henri";
-    weaponPoolAvailable = 1;
-    picture = "\A3\characters_f\Data\UI\icon_H_HelmetSpecB_CA.paa";
-    displayName = "Lush Flecktarn Helmet";
-    model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_ballistic";
-    hiddenSelections[] = {"camo"};
-    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\headgear\Lush_Helmet2.paa"};
-    class ItemInfo: ItemInfo {
-        mass = 40;
-        uniformModel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_ballistic";
-        armor = 3;
-        passThrough = 0.5500000;
-        hiddenSelections[] = {"camo"};
-    };
-};
-class URBAN_HEAD2: H_HelmetB {
-    scope = 2;
-    author = "[S.O.S] Henri";
-    weaponPoolAvailable = 1;
-    picture = "\A3\characters_f\Data\UI\icon_H_HelmetSpecB_CA.paa";
-    displayName = "Urban Flecktarn Helmet";
-    model = "\A3\Characters_F\BLUFOR\headgear_b_helmet_ballistic";
-    hiddenSelections[] = {"camo"};
-    hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\headgear\Urban_Helmet2.paa"};
     class ItemInfo: ItemInfo {
         mass = 40;
         uniformModel = "\A3\Characters_F\BLUFOR\headgear_b_helmet_ballistic";

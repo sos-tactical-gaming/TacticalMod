@@ -21,7 +21,6 @@ class SOS_BW_RS: U_I_CombatUniform_shortsleeve {
         containerClass = "Supply40";
         mass = 40;
     };
-
 };
 class SOS_VT_RS: U_I_CombatUniform_shortsleeve {
     author = "[S.O.S] Henri";
@@ -37,7 +36,6 @@ class SOS_VT_RS: U_I_CombatUniform_shortsleeve {
         containerClass = "Supply40";
         mass = 40;
     };
-
 };
 class SOS_BW_shirt: U_I_CombatUniform {
     author = "[S.O.S] Henri";
@@ -53,7 +51,6 @@ class SOS_BW_shirt: U_I_CombatUniform {
         containerClass = "Supply40";
         mass = 40;
     };
-
 };
 class SOS_VT_shirt: U_I_CombatUniform {
     author = "[S.O.S] Henri";
@@ -69,7 +66,6 @@ class SOS_VT_shirt: U_I_CombatUniform {
         containerClass = "Supply40";
         mass = 40;
     };
-
 };
 class SOS_BW: U_BG_Guerrilla_6_1 {
     author = "[S.O.S] Henri";
@@ -85,7 +81,6 @@ class SOS_BW: U_BG_Guerrilla_6_1 {
         containerClass = "Supply40";
         mass = 40;
     };
-
 };
 class SOS_VT: U_BG_Guerrilla_6_1 {
     author = "[S.O.S] Henri";
@@ -101,7 +96,6 @@ class SOS_VT: U_BG_Guerrilla_6_1 {
         containerClass = "Supply40";
         mass = 40;
     };
-
 };
 class SOS_Splinter : U_BG_Guerrilla_6_1 {
     author = "[S.O.S] Catshannon";

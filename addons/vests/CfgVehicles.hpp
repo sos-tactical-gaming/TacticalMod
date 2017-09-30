@@ -9,8 +9,8 @@ class CfgVehicles {
     class I_Soldier_F;
     class I_Soldier_lite_F;
     
-	#include "Backpacks.hpp"
-	
+    #include "Backpacks.hpp"
+    
     class SmokeSignalBox: NATO_Box_Base {
         scope = 2;
         accuracy = 1000;
@@ -35,8 +35,7 @@ class CfgVehicles {
         };
         class TransportItems {            
         };
-    };
-    
+    };    
     class CH49_Mohawk_NATO: Heli_Transport_02_base_F {
         _generalMacro = "B_Heli_Transport_02_base_F";
         scope = 2;
@@ -53,7 +52,6 @@ class CfgVehicles {
         typicalCargo[] = {"B_Helipilot_F"};
         availableForSupportTypes[] = {"Drop","Transport"};
     };
-	
     class SOS_Rifleman_BW_RS: I_Soldier_lite_F {
         side = 1;
         scope = 1;
@@ -164,5 +162,4 @@ class CfgVehicles {
         hiddenSelections[] = {"Camo", "insignia"};
         hiddenSelectionsTextures[] = {"\x\sos\addons\vests\data\uniforms\AtacLeCam.paa"};
     };
-	
 };

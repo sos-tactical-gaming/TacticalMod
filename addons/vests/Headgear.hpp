@@ -7,7 +7,6 @@ class H_CrewHelmetHeli_B: ItemCore {
 class H_HelmetB: ItemCore {
     class ItemInfo;
 };
-
 class Beret_SOS_officer: H_Beret_blk {
     scope = 2;
     displayName = "SOS Officer's Beret (Green)";
@@ -141,7 +140,6 @@ class BW_ECH_Light_Medic: H_HelmetB {
         hiddenSelections[] = {"camo"};
     };
 };
-
 class VT_ECH_Light_Medic: H_HelmetB {
     scope = 2;
     author = "[S.O.S] Henri";
@@ -159,7 +157,6 @@ class VT_ECH_Light_Medic: H_HelmetB {
         hiddenSelections[] = {"camo"};
     };
 };
-
 class BW_ECH_Light: H_HelmetB {
     scope = 2;
     author = "[S.O.S] Henri";

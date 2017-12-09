@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project ID="SOS GAIA">
+    <Package ID="Modules">
+        <Key ID="STR_SOS_GAIA_Init_Module_DisplayName">
+            <English>GAIA Init</English>
+        </Key>
+        <Key ID="STR_SOS_GAIA_Init_Module_Description">
+            <English>Initializes GAIA in the mission. GAIA will only be run on the server.</English>
+        </Key>       
+        <Key ID="STR_SOS_GAIA_Init_Cache_DisplayName">
+            <English>Cache Stage 1</English>
+        </Key>
+        <Key ID="STR_SOS_GAIA_Init_Cache_Description">
+            <English></English>
+        </Key>
+        <Key ID="STR_SOS_GAIA_Init_MaxSlowSpeedRange_DisplayName">
+            <English>Max Slow Speed Range</English>
+        </Key>
+        <Key ID="STR_SOS_GAIA_Init_MaxSlowSpeedRange_Description">
+            <English></English>
+        </Key>
+        <Key ID="STR_SOS_GAIA_Init_MaxMediumSpeedRange_DisplayName">
+            <English>Max Medium Speed Range</English>
+        </Key>
+        <Key ID="STR_SOS_GAIA_Init_MaxMediumSpeedRange_Description">
+            <English></English>
+        </Key>
+        <Key ID="STR_SOS_GAIA_Init_MaxFastSpeedRange_DisplayName">
+            <English>Max Fast Speed Range</English>
+        </Key>
+        <Key ID="STR_SOS_GAIA_Init_MaxFastSpeedRange_Description">
+            <English></English>
+        </Key>
+        <Key ID="STR_SOS_GAIA_Init_MortarTimeout_DisplayName">
+            <English>Mortar Timeout</English>
+        </Key>
+        <Key ID="STR_SOS_GAIA_Init_MortarTimeout_Description">
+            <English></English>
+        </Key>
+        <Key ID="STR_SOS_GAIA_Init_AttacksForNonGAIA_DisplayName">
+            <English>Attacks for non GAIA</English>
+        </Key>
+        <Key ID="STR_SOS_GAIA_Init_AttacksForNonGAIA_Description">
+            <English></English>
+        </Key>
+        <Key ID="STR_SOS_GAIA_Init_AmbientBehaviour_DisplayName">
+            <English>Ambient Behaviour</English>
+        </Key>
+        <Key ID="STR_SOS_GAIA_Init_AmbientBehaviour_Description">
+            <English></English>
+        </Key>
+        <Key ID="STR_SOS_GAIA_Init_AmbientBehaviourChance_DisplayName">
+            <English>Ambient Behaviour Chance</English>
+        </Key>
+        <Key ID="STR_SOS_GAIA_Init_AmbientBehaviourChance_Description">
+            <English></English>
+        </Key>
+        <Key ID="STR_SOS_GAIA_Init_TransportRestTime_DisplayName">
+            <English>Transport Rest Time</English>
+        </Key>
+        <Key ID="STR_SOS_GAIA_Init_TransportRestTime_Description">
+            <English></English>
+        </Key>        
+        <Key ID="STR_SOS_GAIA_Zone_Module_DisplayName">
+            <English>GAIA Zone</English>
+        </Key>
+        <Key ID="STR_SOS_GAIA_Zone_Module_Description">
+            <English>Creates a GAIA Zone with a specific ID and size.</English>
+        </Key>
+        <Key ID="STR_SOS_GAIA_Zone_ID_DisplayName">
+            <English>Zone ID</English>
+        </Key>
+        <Key ID="STR_SOS_GAIA_Zone_ID_Description">
+            <English>Zones with the same ID will be deleted.</English>
+        </Key>
+        <Key ID="STR_SOS_GAIA_Zone_Size_DisplayName">
+            <English>Size</English>
+        </Key>
+        <Key ID="STR_SOS_GAIA_Zone_Size_Description">
+            <English>Diameter of zone in meters.</English>
+        </Key>
+        <Key ID="STR_SOS_GAIA_Zone_ShowMarker_DisplayName">
+            <English>Show Marker</English>
+        </Key>
+        <Key ID="STR_SOS_GAIA_Zone_ShowMarker_Description">
+            <English>Displays the zone on the map for debugging.</English>
+        </Key>         
+        <Key ID="STR_SOS_GAIA_Assign_Module_DisplayName">
+            <English>GAIA Assign</English>
+        </Key>
+        <Key ID="STR_SOS_GAIA_Assign_Module_Description">
+            <English>Assigns a group to a specific GAIA zone.</English>
+        </Key>
+        <Key ID="STR_SOS_GAIA_Assign_ID_DisplayName">
+            <English>Zone ID</English>
+        </Key>
+        <Key ID="STR_SOS_GAIA_Assign_ID_Description">
+            <English>ID of the zone the group will be assigned to.</English>
+        </Key>
+        <Key ID="STR_SOS_GAIA_Assign_Behaviour_DisplayName">
+            <English>Behaviour Mode</English>
+        </Key>
+        <Key ID="STR_SOS_GAIA_Assign_Behaviour_Description">
+            <English></English>
+        </Key>
+        <Key ID="STR_SOS_GAIA_Assign_Behaviour_Move_DisplayName">
+            <English>Aggressive</English>
+        </Key>
+        <Key ID="STR_SOS_GAIA_Assign_Behaviour_NoFollow_DisplayName">
+            <English>Defensive</English>
+        </Key>
+        <Key ID="STR_SOS_GAIA_Assign_Behaviour_Fortify_DisplayName">
+            <English>Fortify</English>
+        </Key>
+        <Key ID="STR_SOS_GAIA_Assign_Cache_DisplayName">
+            <English>Enable Caching</English>
+        </Key>
+        <Key ID="STR_SOS_GAIA_Assign_Cache_Description">
+            <English>Allows the group to be cached by GAIA.</English>
+        </Key>
+    </Package>
+</Project>
